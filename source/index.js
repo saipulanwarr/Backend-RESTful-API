@@ -11,6 +11,6 @@ Route
     .use('/product/', productRouter)
     .use('/category/', categoryRouter)
     .use('/purchase/', purchaseRouter)
-    .use('/api/upload', express.static('./upload'))
+    .use('/upload', express.static('./upload'))
 
 module.exports = Route
