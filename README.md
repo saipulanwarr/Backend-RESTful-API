@@ -12,7 +12,7 @@ RESTful API
 - <b>CRUD PRODUCT</b>
 - <b>CRUD CATEGORY</b>
 - <b>CRUD ACCOUNT</b>
-- <b>CRUD ORDER</b>
+- <b>CRUD PURCHASE</b>
 - <b>PAGINATION</b>
 - <b>USER LOGIN AND REGISTER</b>
 
