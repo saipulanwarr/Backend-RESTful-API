@@ -3,18 +3,18 @@ const Route = express.Router();
 
 // const { authentication, authorization } = require("../helpers/auth");
 
-// const {
-//      createProduct,
-//      readProduct,
-//      updateProduct,
-//      deleteProduct,
-//      ignoreFavicon
-// } = require("../controllers/product");
+const {
+    createProduct,
+    //  readProduct,
+    //  updateProduct,
+    //  deleteProduct,
+    //  ignoreFavicon
+} = require("../controllers/product");
 
-// const { uploadImages } = require("../controllers/upload");
+const { uploadImages } = require("../controllers/upload");
 
 Route
-    .post("/")
+    .post("/", uploadImages, createProduct)
     .get("/")
     .get("/:productId")
     .patch("/:productId")
